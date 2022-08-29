@@ -1,0 +1,113 @@
+:root{
+    --color-1:(#3120E0);
+    --color-2:(#E8F9FD);
+
+    font-size: 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.home{
+    background-image: url(./image/image-code2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.info-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    gap: 0.5rem;
+
+    color: white;
+    
+}
+
+.title{
+    background-color: #1B2430;
+}
+
+.img-home{
+    height: 270px;
+    width: 270px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.img-home img{
+    width: 100%;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 4rem 1.5rem;
+    text-align: left;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.content-skills{
+    display: grid;
+    grid-gap: 4rem;
+}
+
+.git{
+    grid-column: 3 / 2;
+    grid-row: 2 / 3;
+}
+
+.content-skills h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.skills img{
+    height: 150px; 
+    width: 150px;
+}
+
+
