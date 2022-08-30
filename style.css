@@ -39,7 +39,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
 }
 
 
@@ -79,7 +78,23 @@ body{
     text-align: left;
 }
 
-.skills{
+.studies, .info-studies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.studies{
+    padding: 4rem 1.5rem;
+}
+
+.info-studies img{
+    width: 12rem;
+    height: 12rem;
+}
+
+.skills, .info-skills, .content-skills{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,27 +102,52 @@ body{
     gap: 3rem;
 }
 
-.content-skills{
-    display: grid;
-    grid-gap: 4rem;
-}
-
-.git{
-    grid-column: 3 / 2;
-    grid-row: 2 / 3;
-}
-
-.content-skills h3{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5rem;
+.skills{
+    padding: 4rem 1.5rem;
 }
 
 .skills img{
     height: 150px; 
     width: 150px;
 }
+
+.contact{
+    padding: 4rem 1.5rem;
+}
+
+.contact, .contect-contact, .info-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contect-contact img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.info-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0.2rem;
+    background-color: #0F3460;
+    color: white;
+}
+
+/* .content-skills{
+    display: grid;
+    grid-gap: 4rem;
+} */
+
+/* .git{
+    grid-column: 3 / 2;
+    grid-row: 2 / 3;
+} */
+
+
 
 
