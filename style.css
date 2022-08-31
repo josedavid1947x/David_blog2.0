@@ -111,21 +111,32 @@ body{
     width: 150px;
 }
 
-.contact{
-    padding: 4rem 1.5rem;
+.contect-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
 }
 
-.contact, .contect-contact, .info-contact{
+.contact{
+    padding: 4rem 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .contect-contact img{
-    width: 5rem;
-    height: 5rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.content-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-footer{
