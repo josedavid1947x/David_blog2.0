@@ -29,7 +29,7 @@ body{
     min-width: 100%;
 }
 
-.home{
+.home, .content-home{
     background-image: url(./image/image-code2.png);
     background-position: center;
     background-size: cover;
