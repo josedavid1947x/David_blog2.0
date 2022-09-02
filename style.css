@@ -85,22 +85,6 @@ a{
     text-align: left;
 }
 
-.studies, .info-studies{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.studies{
-    padding: 4rem 1.5rem;
-}
-
-.info-studies img{
-    width: 12rem;
-    height: 12rem;
-}
-
 .skills, .info-skills, .content-skills{
     display: flex;
     flex-direction: column;
@@ -116,6 +100,22 @@ a{
 .skills img{
     height: 150px; 
     width: 150px;
+}
+
+.studies, .info-studies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.studies{
+    padding: 4rem 1.5rem;
+}
+
+.info-studies img{
+    width: 12rem;
+    height: 12rem;
 }
 
 .contect-contact{
@@ -168,7 +168,7 @@ a{
     grid-row: 2 / 3;
 } */
 
-@media (min-width: 700px) {
+@media (min-width: 840px) {
     .home, .content-home{
         display: flex;
         flex-direction: row;
@@ -183,7 +183,7 @@ a{
     }
 
     .info-home{
-        font-family:"Roboto", sans-serif;
+        font-family: var(--leter-1);
         display: flex;
         gap: 0.5rem;
         color: var(--White);
@@ -201,6 +201,44 @@ a{
     .title-home-tertiary{
         font-size: 3rem;
     }
+
+    .content-center{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr)
+
+    }
+
+    .content-skills{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 8rem;
+    }
+
+    .about{
+        gap: 3rem;
+        text-align: left;
+        font-family: var(--leter-1);
+        padding: 4rem 3.5rem;
+    }
+
+    .studies{
+        display: flex;
+        align-items: flex-start;
+        padding: 4rem 3.5rem;
+    }
+
+    .content-studies{
+        display: flex;
+        gap: 16rem;
+        padding-top: 3rem;
+    }
+
+    .contact{
+        display: flex;
+        align-items: flex-start;
+        padding: 4rem 3.5rem;
+    }
+
 }
 
 
