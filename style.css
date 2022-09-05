@@ -41,6 +41,7 @@ a{
     background-color: rgba(0, 0, 0, 0.8);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35);
     transition: box-shadow;
+    
 
     position: fixed;
     width: 100%;
@@ -52,7 +53,7 @@ a{
 
 .menu{
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 
@@ -125,13 +126,16 @@ a{
 .skills img{
     height: 150px; 
     width: 150px;
+    border-radius: 1rem;
+    box-shadow: 8px 8px 8px gray;
 }
 
-.studies, .info-studies{
+.studies, .info-studies {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
 }
 
 .studies{
@@ -141,6 +145,7 @@ a{
 .info-studies img{
     width: 12rem;
     height: 12rem;
+    border-radius: 1rem;
 }
 
 .contect-contact{
