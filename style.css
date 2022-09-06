@@ -119,6 +119,7 @@ a{
     gap: 1rem;
     padding: 4rem 1.5rem;
     text-align: left;
+    font-family: var(--leter-1);
 }
 
 /* Estilos de skills */
@@ -128,6 +129,7 @@ a{
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    font-family: var(--leter-1);
 }
 
 .skills{
@@ -147,7 +149,8 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4rem 1.5rem;
+    padding: 3rem 1.5rem;
+    font-family: var(--leter-1);
 }
 
 .info-studies img{
@@ -155,6 +158,27 @@ a{
     height: 12rem;
     border-radius: 1rem;
     background-color: rgba(128, 128, 128, 0.1)
+}
+
+/* Estilos al porfolio */
+
+.tittle_portfolio{
+    font-family: var(--leter-1);
+    text-align: center;
+}
+
+.content_porfolio, .portfolio_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+
+.portfolio_img img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 8px 8px 8px gray;
 }
 
 /* Estilos de contact */
@@ -172,6 +196,7 @@ a{
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
+    font-family: var(--leter-1);
 }
 
 .contect-contact img{
@@ -195,6 +220,7 @@ a{
     padding-top: 0.2rem;
     background-color: #0F3460;
     color: var(--White);
+    font-family: var(--leter-1);
 }
 
 
@@ -213,9 +239,8 @@ a{
         align-items: center;
         padding: 0;
         gap: 2rem;
+        transform: translateX(0);
     }
-
-
 
     .home, .content-home{
         display: flex;
@@ -279,6 +304,19 @@ a{
         display: flex;
         gap: 16rem;
         padding-top: 3rem;
+    }
+
+    .content_porfolio{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        max-width: 90%;
+    }
+
+    .portfolio_img img{
+        width: 30rem;
+        height: 26rem;
+        box-shadow: 8px 8px 8px gray;
     }
 
     .contact{
